@@ -1,5 +1,5 @@
 package main.java.com.wayyer.HelloWorld.test.merge.conflict;
-
+import java.util.List;
 /**
  * @Author: wayyer
  * @Description: HanNuoTower
@@ -7,6 +7,7 @@ package main.java.com.wayyer.HelloWorld.test.merge.conflict;
  * @Date: 2019.04.10
  */
 public class HanNuoTower {
+    List<Double> douList = null;
     static int i = 1;
     public static void move(int n, char x, char y, char z){
         if(n == 1){
