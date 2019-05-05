@@ -1,7 +1,5 @@
-package com.jnj.pangea.wcao.test.lambda;
+package main.java.com.wayyer.HelloWorld.lambda;
 
-import akka.actor.AbstractLoggingActor;
-import akka.japi.pf.ReceiveBuilder;
 
 /**
  * @Author: wayyer

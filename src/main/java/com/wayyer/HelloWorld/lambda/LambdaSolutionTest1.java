@@ -1,6 +1,5 @@
-package com.jnj.pangea.wcao.test.lambda;
+package main.java.com.wayyer.HelloWorld.lambda;
 
-import org.kie.api.task.model.PeopleAssignments;
 
 import java.util.*;
 import java.util.function.Consumer;

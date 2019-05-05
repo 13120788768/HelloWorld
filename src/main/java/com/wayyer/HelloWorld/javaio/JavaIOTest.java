@@ -1,7 +1,7 @@
-package com.jnj.pangea.wcao.test.javaio;
+package main.java.com.wayyer.HelloWorld.javaio;
 
-import akka.remote.transport.netty.NettyTransportExceptionNoStack;
-import com.jnj.pangea.wcao.test.lambda.Person;
+
+import main.java.com.wayyer.HelloWorld.lambda.Person;
 
 import java.io.*;
 import java.util.Date;
