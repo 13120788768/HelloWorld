@@ -1,7 +1,5 @@
-package com.jnj.pangea.wcao.test.lambda;
+package main.java.com.wayyer.HelloWorld.lambda;
 
-import com.google.common.collect.Lists;
-import scala.Int;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -16,7 +14,14 @@ import java.util.stream.Collectors;
  */
 public class LambdaStreamTest {
 
-    static List<Integer> nums = Lists.newArrayList(1,2,3,4);
+    static List<Integer> nums = new ArrayList<>();
+    static {
+        nums.add(1);
+        nums.add(2);
+        nums.add(3);
+        nums.add(4);
+    }
+
 
     static String[] strs = {"feature", "java8", "author", "caowei", "company", "jnj"};
 
@@ -40,7 +45,7 @@ public class LambdaStreamTest {
 
 
         Integer[] a = {1,2,3};
-        Arrays.stream(a).filter(e -> e!=0).mapToInt(e -> e+2).collect(Collectors.toCollection());
+//        Arrays.stream(a).filter(e -> e!=0).mapToInt(e -> e+2).collect(Collectors.toCollection());
 
         int sum = nums.stream().filter(num -> num!= null).distinct().mapToInt(num -> num+2).sum();
 
@@ -165,10 +170,10 @@ public class LambdaStreamTest {
 
         //reduction operation
 
-        int reduceSumPeo = people.stream().mapToInt(Person::getAge).reduce(0, (a, b) -> a+b);
+        int reduceSumPeo = people.stream().mapToInt(Person::getAge).reduce(0, (a1, b) -> a1+b);
         System.out.println("18.1. the reduction operation of summarilizing reduceSumPeo = " + reduceSumPeo);
 
-        int reduceSumNum = nums.stream().reduce(0, (a, b) -> a+b);
+        int reduceSumNum = nums.stream().reduce(0, (a1, b) -> a1+b);
         System.out.println("18.2. the reduction operation of summarilizing reduceSumNum = " + reduceSumNum);
 
         int reduceSumNum2 = nums.stream().reduce(0, Integer::sum);
