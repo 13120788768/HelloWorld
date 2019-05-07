@@ -1,4 +1,4 @@
-package main.java.com.wayyer.HelloWorld.lambda;
+package com.wayyer.HelloWorld.lambda;
 
 
 import java.util.*;
@@ -25,16 +25,16 @@ public class LambdaStreamTest {
 
     static String[] strs = {"feature", "java8", "author", "caowei", "company", "jnj"};
 
-    static List<Person> people = Arrays.asList(
-            new Person("Cao", "Wei", 25),
-            new Person("Guo", "Liu", 24),
-            new Person("Cao1", "Wei", 25),
-            new Person("Guo1", "Liu", 24),
-            new Person("Cao2", "Wei", 25),
-            new Person("Guo2", "Liu", 24),
-            new Person("Cao3", "Wei", 25),
-            new Person("Guo3", "Liu", 24),
-            new Person("Caoguo", "Meili", 18));
+    static List<main.java.com.wayyer.HelloWorld.lambda.Person> people = Arrays.asList(
+            new main.java.com.wayyer.HelloWorld.lambda.Person("Cao", "Wei", 25),
+            new main.java.com.wayyer.HelloWorld.lambda.Person("Guo", "Liu", 24),
+            new main.java.com.wayyer.HelloWorld.lambda.Person("Cao1", "Wei", 25),
+            new main.java.com.wayyer.HelloWorld.lambda.Person("Guo1", "Liu", 24),
+            new main.java.com.wayyer.HelloWorld.lambda.Person("Cao2", "Wei", 25),
+            new main.java.com.wayyer.HelloWorld.lambda.Person("Guo2", "Liu", 24),
+            new main.java.com.wayyer.HelloWorld.lambda.Person("Cao3", "Wei", 25),
+            new main.java.com.wayyer.HelloWorld.lambda.Person("Guo3", "Liu", 24),
+            new main.java.com.wayyer.HelloWorld.lambda.Person("Caoguo", "Meili", 18));
 
     public static void main(String[] args) {
         //the method stream can trans the collection into a stream
@@ -65,7 +65,7 @@ public class LambdaStreamTest {
         System.out.println("2. filter all the ele without odd num, new array = " + nums);
 
 
-        List<Person> caoPeo = people
+        List<main.java.com.wayyer.HelloWorld.lambda.Person> caoPeo = people
                 .stream()
                 .filter(person -> person.getFirstName()!=person.getLastName())
                 .collect(Collectors.toList());
@@ -73,26 +73,26 @@ public class LambdaStreamTest {
         System.out.println("3. filter all the people with different xxx and return caoPeo = " + caoPeo);
 
 
-        List<Person> distinctPro = people
+        List<main.java.com.wayyer.HelloWorld.lambda.Person> distinctPro = people
                 .stream().distinct().collect(Collectors.toList());
 
 
         System.out.println("4. filter all the people with no duplicated and return distinctPro = " + distinctPro);
 
 
-        List<Person> limitPeo = people
+        List<main.java.com.wayyer.HelloWorld.lambda.Person> limitPeo = people
                 .stream().limit(2).collect(Collectors.toList());
 
         System.out.println("5. limit 2 peo limitPeo = " + limitPeo);
 
 
-        List<Person> skipPeo = people
+        List<main.java.com.wayyer.HelloWorld.lambda.Person> skipPeo = people
                 .stream().skip(6).collect(Collectors.toList());
 
         System.out.println("6. skip the early six skipPeo = " + skipPeo);
 
 
-        List<Person> sortedDefaultPeo = people.stream().sorted((p1, p2) -> p1.getAge() - p2.getAge()).collect(Collectors.toList());
+        List<main.java.com.wayyer.HelloWorld.lambda.Person> sortedDefaultPeo = people.stream().sorted((p1, p2) -> p1.getAge() - p2.getAge()).collect(Collectors.toList());
 
         System.out.println("7. the sortedDefaultPeo = " + sortedDefaultPeo);
 
@@ -100,11 +100,11 @@ public class LambdaStreamTest {
         OptionalInt optionalInt = people
                 .stream()
                 .sorted((p1, p2) -> p1.getAge() - p2.getAge())
-                .mapToInt(Person::getAge).findFirst();
+                .mapToInt(main.java.com.wayyer.HelloWorld.lambda.Person::getAge).findFirst();
 
         System.out.println("8. the optionalInt = " + optionalInt);
 
-        List<String> lastnamePeo = people.stream().map(Person::getLastName).distinct().collect(Collectors.toList());
+        List<String> lastnamePeo = people.stream().map(main.java.com.wayyer.HelloWorld.lambda.Person::getLastName).distinct().collect(Collectors.toList());
 
         System.out.println("9. the person map to string list = " + lastnamePeo);
 
@@ -151,18 +151,18 @@ public class LambdaStreamTest {
 
         //findFirst method is used for searching the first ele position we want and return this ele
         //this method parameter is null, any criteria make sense in filter method
-        Optional<Person> thefirstnameCaoInfoPeo = people.stream().filter(person -> "Cao".equals(person.getFirstName())).findFirst();
+        Optional<main.java.com.wayyer.HelloWorld.lambda.Person> thefirstnameCaoInfoPeo = people.stream().filter(person -> "Cao".equals(person.getFirstName())).findFirst();
         System.out.println("16. get the first person whose first name 'Cao' thefirstnameCaoInfoPeo = " + thefirstnameCaoInfoPeo);
 
         //findAny method is used for searching any one who is suitable.
 
         //in stream method which stream is order by sequence, this findAny is the same with findFirst
-        Optional<Person> anyoneAdultInfoInStreamPeo = people.stream().filter(person -> person.getAge() > 17).findAny();
+        Optional<main.java.com.wayyer.HelloWorld.lambda.Person> anyoneAdultInfoInStreamPeo = people.stream().filter(person -> person.getAge() > 17).findAny();
 
         System.out.println("17.1. find a person who is a adult anyoneAdultInfoInStreamPeo = " + anyoneAdultInfoInStreamPeo);
 
         //the parallel stream is used for multiple threads to search
-        Optional<Person> anyoneAdultInfoInParallelPeo = people.parallelStream().filter(person -> person.getAge() > 17).findAny();
+        Optional<main.java.com.wayyer.HelloWorld.lambda.Person> anyoneAdultInfoInParallelPeo = people.parallelStream().filter(person -> person.getAge() > 17).findAny();
 
         System.out.println("17.2. find a person who is a adult anyoneAdultInfoInParallelPeo = " + anyoneAdultInfoInParallelPeo);
 
@@ -170,7 +170,7 @@ public class LambdaStreamTest {
 
         //reduction operation
 
-        int reduceSumPeo = people.stream().mapToInt(Person::getAge).reduce(0, (a1, b) -> a1+b);
+        int reduceSumPeo = people.stream().mapToInt(main.java.com.wayyer.HelloWorld.lambda.Person::getAge).reduce(0, (a1, b) -> a1+b);
         System.out.println("18.1. the reduction operation of summarilizing reduceSumPeo = " + reduceSumPeo);
 
         int reduceSumNum = nums.stream().reduce(0, (a1, b) -> a1+b);
@@ -196,7 +196,7 @@ public class LambdaStreamTest {
 
         //Collectors.maxBy, minBy : the maximum and minimum of the given collections
 
-        String joiningFirstname = people.stream().map(Person::getFirstName).collect(Collectors.joining());
+        String joiningFirstname = people.stream().map(main.java.com.wayyer.HelloWorld.lambda.Person::getFirstName).collect(Collectors.joining());
         System.out.println("20.1. join the strings joiningFirstname = " + joiningFirstname);
 
 
