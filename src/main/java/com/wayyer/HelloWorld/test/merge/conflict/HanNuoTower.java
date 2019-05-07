@@ -1,5 +1,12 @@
 package main.java.com.wayyer.HelloWorld.test.merge.conflict;
+<<<<<<< HEAD
 import java.util.List;
+=======
+
+import java.util.ArrayList;
+import java.util.List;
+
+>>>>>>> feature_A
 /**
  * @Author: wayyer
  * @Description: HanNuoTower
@@ -7,7 +14,12 @@ import java.util.List;
  * @Date: 2019.04.10
  */
 public class HanNuoTower {
+<<<<<<< HEAD
     List<Double> douList = null;
+=======
+    List<String> aaList = new ArrayList<>();
+    List<Integer> intList = new ArrayList<>();
+>>>>>>> feature_A
     static int i = 1;
     public static void move(int n, char x, char y, char z){
         if(n == 1){
