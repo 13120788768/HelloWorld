@@ -1,0 +1,58 @@
+
+\squid:S1854∂"=Remove this useless assignment to local variable "isDeleted".(–ù‚–8ó„©ù§-
+\squid:UnusedPrivateMethodÉ"/Remove this unused private "writerFile" method.(•ﬁ˙‚8ó„©ù§-
+isquid:UnusedPrivateMethodê"<Remove this unused private "convertByteToCharStream" method.(õÇ∆É8ó„©ù§-
+nsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(ﬂ£¸“¸ˇˇˇˇ8ó„©ù§-
+V
+squid:S106F"9Replace this use of System.out or System.err by a logger.(ûá¯ˆ8ó„©ù§-
+ksquid:S1192F"MDefine a constant instead of duplicating this literal "file size = " 3 times.(ûá¯ˆ8ó„©ù§-
+nsquid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(»ˆΩç¯ˇˇˇˇ8ó„©ù§-
+W
+squid:S106´"9Replace this use of System.out or System.err by a logger.(Ãˇœí8ó„©ù§-
+jsquid:S00112c"FDefine and throw a dedicated exception instead of using a generic one.(çÒ¢„˝ˇˇˇˇ8ó„©ù§-
+qsquid:S2095f"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(˛Ü≤–¸ˇˇˇˇ8ó„©ù§-
+fsquid:S2095y"HUse try-with-resources or close this "FileReader" in a "finally" clause.(‹¿ëÕ8ó„©ù§-
+W
+squid:S106ñ"9Replace this use of System.out or System.err by a logger.(ûá¯ˆ8ó„©ù§-
+Isquid:S1481Ω"*Remove this unused "files" local variable.(åÙ¸—8ó„©ù§-
+ksquid:S2095D"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(à‡˛è8ó„©ù§-
+isquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(ãÜá€8ó„©ù§-
+ssquid:S1192F"UDefine a constant instead of duplicating this literal ", \nfile contents = " 3 times.(ûá¯ˆ8ó„©ù§-
+Isquid:S2116Ö"%Use "Arrays.toString(array)" instead.(¡Ëë≤˚ˇˇˇˇ8ó„©ù§-
+Osquid:S1481∞"+Remove this unused "length" local variable.(ô’¢‹˛ˇˇˇˇ8ó„©ù§-
+`squid:UnusedPrivateMethodu"/Remove this unused private "readerFile" method.(Ω¬í˜¸ˇˇˇˇ8ó„©ù§-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(éΩ≤¸ˇˇˇˇ8ó„©ù§-
+gsquid:UnusedPrivateMethod¡"5Remove this unused private "randomAccessFile" method.(Éñ‡Ø˝ˇˇˇˇ8ó„©ù§-
+Osquid:S1481π"0Remove this unused "isDirectory" local variable.(ÿåùë8ó„©ù§-
+jsquid:S00112R"FDefine and throw a dedicated exception instead of using a generic one.(©øÌº˘ˇˇˇˇ8ó„©ù§-
+Zsquid:S1854I"7Remove this useless assignment to local variable "fis".(≥πñõ¯ˇˇˇˇ8ó„©ù§-
+msquid:S2095ì"OUse try-with-resources or close this "InputStreamReader" in a "finally" clause.(ÑüB8ó„©ù§-
+lsquid:S2095Ñ"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(≥£Îˇ˙ˇˇˇˇ8ó„©ù§-
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—™Å¸¸ˇˇˇˇ8ó„©ù§-
+V
+squid:S106°"9Replace this use of System.out or System.err by a logger.(êø∂8ó„©ù§-
+^squid:S1854π"?Remove this useless assignment to local variable "isDirectory".(ÿåùë8ó„©ù§-
+Y
+squid:S899∂";Do something with the "boolean" value returned by "delete".(–ù‚–8ó„©ù§-
+dsquid:UnusedPrivateMethodù"2Remove this unused private "fileOperation" method.(ˆ„à∑¸ˇˇˇˇ8ó„©ù§-
+\squid:S1854ª"=Remove this useless assignment to local variable "fileNames".(ãÂØµ8ó„©ù§-
+Msquid:S1481∂".Remove this unused "isDeleted" local variable.(–ù‚–8ó„©ù§-
+^
+squid:S899π"@Do something with the "boolean" value returned by "isDirectory".(ÿåùë8ó„©ù§-
+qsquid:S2095X"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(˛Ü≤–¸ˇˇˇˇ8ó„©ù§-
+V
+squid:S106{"9Replace this use of System.out or System.err by a logger.(ûá¯ˆ8ó„©ù§-
+jsquid:S00112A"FDefine and throw a dedicated exception instead of using a generic one.(ÓÊƒ™˙ˇˇˇˇ8ó„©ù§-
+isquid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(ˆâ¿8ó„©ù§-
+^squid:S1854∞":Remove this useless assignment to local variable "length".(ô’¢‹˛ˇˇˇˇ8ó„©ù§-
+\
+squid:S106¶"9Replace this use of System.out or System.err by a logger.(ÀÂ©ú˘ˇˇˇˇ8ó„©ù§-
+hsquid:S4042∂"IUse "java.nio.Files#delete" here for better messages on error conditions.(–ù‚–8ó„©ù§-
+jsquid:CommentedOutCodeLine¥"<This block of commented-out lines of code should be removed.(à≠ù®8ó„©ù§-
+ksquid:S2095e"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(›Ö÷˙8ó„©ù§-
+fsquid:S00112É"FDefine and throw a dedicated exception instead of using a generic one.(•ﬁ˙‚8ó„©ù§-
+Msquid:S1481ª".Remove this unused "fileNames" local variable.(ãÂØµ8ó„©ù§-
+osquid:CommentedOutCodeLine≤"<This block of commented-out lines of code should be removed.(Ú’ê˚¯ˇˇˇˇ8ó„©ù§-
+Xsquid:S1854Ω"9Remove this useless assignment to local variable "files".(åÙ¸—8ó„©ù§-
+jsquid:S00112u"FDefine and throw a dedicated exception instead of using a generic one.(Ω¬í˜¸ˇˇˇˇ8ó„©ù§-

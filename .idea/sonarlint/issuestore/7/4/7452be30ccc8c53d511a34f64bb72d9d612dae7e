@@ -1,0 +1,64 @@
+
+W
+squid:S106´"9Replace this use of System.out or System.err by a logger.(¾»€ì8—ã©¤-
+\
+squid:S106È"9Replace this use of System.out or System.err by a logger.(š‰Ó”ÿÿÿÿÿ8—ã©¤-
+\
+squid:S106Í"9Replace this use of System.out or System.err by a logger.(‰â¹ıÿÿÿÿ8—ã©¤-
+[
+squid:S106\"9Replace this use of System.out or System.err by a logger.(ÜÛ¤Àıÿÿÿÿ8—ã©¤-
+[squid:S16122"=Replace this lambda with method reference 'Objects::nonNull'.(€„£×8—ã©¤-
+\
+squid:S106‹"9Replace this use of System.out or System.err by a logger.(ÜÏ°»üÿÿÿÿ8—ã©¤-
+V
+squid:S106a"9Replace this use of System.out or System.err by a logger.(†Ú¹Ù8—ã©¤-
+V
+squid:S106;"9Replace this use of System.out or System.err by a logger.(ßÓ§ñ8—ã©¤-
+V
+squid:S106V"9Replace this use of System.out or System.err by a logger.(ïœº8—ã©¤-
+[
+squid:S106m"9Replace this use of System.out or System.err by a logger.(Ü¦Åêüÿÿÿÿ8—ã©¤-
+\
+squid:S106±"9Replace this use of System.out or System.err by a logger.(ë˜™¡úÿÿÿÿ8—ã©¤-
+U
+squid:S106i"9Replace this use of System.out or System.err by a logger.(½£ïV8—ã©¤-
+W
+squid:S106§"9Replace this use of System.out or System.err by a logger.(™ØˆÏ8—ã©¤-
+isquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(şåêñ8—ã©¤-
+W
+squid:S106®"9Replace this use of System.out or System.err by a logger.(·¤×¡8—ã©¤-
+V
+squid:S106A"9Replace this use of System.out or System.err by a logger.(€šİ¢8—ã©¤-
+[
+squid:S1064"9Replace this use of System.out or System.err by a logger.(ñÆ½¥ıÿÿÿÿ8—ã©¤-
+W
+squid:S106•"9Replace this use of System.out or System.err by a logger.(ı¸ª“8—ã©¤-
+\
+squid:S106Ï"9Replace this use of System.out or System.err by a logger.(¡Äõüøÿÿÿÿ8—ã©¤-
+[
+squid:S106s"9Replace this use of System.out or System.err by a logger.(±åÜ»úÿÿÿÿ8—ã©¤-
+U
+squid:S106I"9Replace this use of System.out or System.err by a logger.(µ‘Í<8—ã©¤-
+`squid:S3655·"<Call "reduceSumNum3.isPresent()" before accessing the value.(³ÿ¶Òüÿÿÿÿ8—ã©¤-
+isquid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(š“¹±8—ã©¤-
+Xsquid:S1854/"5Remove this useless assignment to local variable "a".(Ş§¿Õúÿÿÿÿ8—ã©¤-
+[
+squid:S106|"9Replace this use of System.out or System.err by a logger.(œ“òİıÿÿÿÿ8—ã©¤-
+Isquid:S1481/"&Remove this unused "a" local variable.(Ş§¿Õúÿÿÿÿ8—ã©¤-
+\
+squid:S106·"9Replace this use of System.out or System.err by a logger.(³ÿ¶Òüÿÿÿÿ8—ã©¤-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(¬Æü ıÿÿÿÿ8—ã©¤-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ã…Ò¾ÿÿÿÿÿ8—ã©¤-
+W
+squid:S106Â"9Replace this use of System.out or System.err by a logger.( Ö¡8—ã©¤-
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ĞÉàØûÿÿÿÿ8—ã©¤-
+W
+squid:S106¿"9Replace this use of System.out or System.err by a logger.(øšÎ8—ã©¤-
+\
+squid:S106¢"9Replace this use of System.out or System.err by a logger.(æçúËüÿÿÿÿ8—ã©¤-
+[
+squid:S106P"9Replace this use of System.out or System.err by a logger.(×ëğ˜ÿÿÿÿÿ8—ã©¤-
+\
+squid:S106›"9Replace this use of System.out or System.err by a logger.(¢¾„ßÿÿÿÿÿ8—ã©¤-

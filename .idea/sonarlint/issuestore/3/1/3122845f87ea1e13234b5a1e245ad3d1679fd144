@@ -1,0 +1,5 @@
+
+Gsquid:S1068")Remove this unused "count" private field.(˜ì’ˆ8–ã©¤-
+Fsquid:S1068"(Remove this unused "text" private field.(š²ûÁ8–ã©¤-
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ĞÉàØûÿÿÿÿ8–ã©¤-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(µö¸àüÿÿÿÿ8–ã©¤-
