@@ -1,4 +1,4 @@
-package main.java.com.wayyer.HelloWorld;
+package com.wayyer.HelloWorld;
 
 /**
  * @Author: wayyer
