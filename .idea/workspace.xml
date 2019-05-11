@@ -2,25 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e437b471-a21f-4756-8861-e5ecfdabe573" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/FibonaciSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/MinPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/test/merge/conflict/HanNuoTower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/HanNuoTower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/jmx/HelloAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/jmx/HelloAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/LambdaStreamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/test/merge/conflict/HanNuoTower.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/caca3236583ceee88c4ccc65e823f4286ea477c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/algorithm/FibonaciSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/algorithm/HanNuoTower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/algorithm/MinPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/jmx/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/jmx/HelloAgent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/jmx/HelloMBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/ConsumerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/DemoCallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/KafkaConsumerProducerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/KafkaProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/ProducerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/lambda/LambdaStreamTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/proxy/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/proxy/StaticProxyMainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/proxy/dynamicproxy/ProxyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/proxy/staticproxy/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/proxy/staticproxy/UserServiceProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/sort/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/InitiateExtendOrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/InitiateOrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/MyClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/ParentOrderTest$InitiateOrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/ParentOrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/javaio/JavaIOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/ExceptionHandlingSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/FunctionalClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/FunctionalInterfaceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/JWorks$Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/JWorks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/LambdaSolutionTest1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/LambdaSolutionTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/math/Multiplies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mbox-export.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mbox-export.jar.original" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.22.0" />
+      </map>
+    </option>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="1026">
               <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
             </state>
           </provider>
@@ -30,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/lambda/LambdaStreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -38,7 +90,7 @@
       <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/sort/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="190">
               <caret line="10" column="17" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
@@ -47,8 +99,8 @@
       <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="760">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -57,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/HanNuoTower.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,15 +117,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FibonaciSequence.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FibonaciSequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/FibonaciSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-              <folding>
-                <element signature="e#1916#1917#0" expanded="true" />
-                <element signature="e#1957#1958#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1083">
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
             </state>
           </provider>
         </entry>
@@ -81,11 +138,10 @@
       <file leaf-file-name="MinPath.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/MinPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1222">
-              <caret line="76" column="44" lean-forward="true" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+            <state relative-caret-position="1425">
+              <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#403#412#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,7 +209,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,7 +250,34 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="classLoader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="javaio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="jmx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
@@ -212,13 +295,31 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,7 +404,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="71a4549d-15bd-45b8-a280-20d52df3e606" name="Default" comment="" />
+      <changelist id="e437b471-a21f-4756-8861-e5ecfdabe573" name="Default" comment="" />
       <created>1554877419488</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -313,25 +414,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.25292397" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40497077" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.3297568" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40497077" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.4" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.2532189" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.50108933" side_tool="true" weight="0.23319027" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info id="UI Designer" order="2" />
@@ -343,19 +441,14 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.25292397" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/lambda/FunctionalClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/sourceforge/tess4j/TessAPITest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/net/sourceforge/tess4j/TessAPI1Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javaio/JavaIOTest.java">
@@ -563,10 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="4802" column="27" selection-start-line="4802" selection-start-column="24" selection-end-line="4802" selection-end-column="27" />
-          <folding>
-            <element signature="e#186747#186748#0" expanded="true" />
-            <element signature="e#186792#186793#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,10 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="30" column="34" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="e#2375#2376#0" expanded="true" />
-            <element signature="e#2403#2404#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,12 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="416" column="41" lean-forward="true" selection-start-line="416" selection-start-column="41" selection-end-line="416" selection-end-column="41" />
-          <folding>
-            <element signature="e#19358#19359#0" expanded="true" />
-            <element signature="e#19422#19423#0" expanded="true" />
-            <element signature="e#22361#22362#0" expanded="true" />
-            <element signature="e#22443#22444#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,9 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="73" column="32" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,10 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,10 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,10 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,46 +759,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="1026">
           <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/lambda/LambdaStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/lambda/LambdaStreamTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/lambda/LambdaStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/sort/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="190">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="760">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/HanNuoTower.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -743,23 +798,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/MinPath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1222">
-          <caret line="76" column="44" lean-forward="true" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+        <state relative-caret-position="1425">
+          <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#403#412#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/FibonaciSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding>
-            <element signature="e#1916#1917#0" expanded="true" />
-            <element signature="e#1957#1958#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1083">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>
