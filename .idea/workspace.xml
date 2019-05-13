@@ -2,55 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e437b471-a21f-4756-8861-e5ecfdabe573" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/caca3236583ceee88c4ccc65e823f4286ea477c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/ServletDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/IStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/Strategy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/Strategy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/StrategyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/StrategyContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/BuyCookingTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/CommonCook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/FutureConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/FutureCook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/algorithm/FibonaciSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/algorithm/HanNuoTower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/algorithm/MinPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/jmx/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/jmx/HelloAgent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/jmx/HelloMBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/ConsumerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/DemoCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/KafkaConsumerProducerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/KafkaProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/kafka/ProducerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/lambda/LambdaStreamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/proxy/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/proxy/StaticProxyMainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/proxy/dynamicproxy/ProxyFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/proxy/staticproxy/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/proxy/staticproxy/UserServiceProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/sort/InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wayyer/HelloWorld/sort/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/InitiateExtendOrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/InitiateOrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/MyClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/ParentOrderTest$InitiateOrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/ParentOrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/classLoader/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/javaio/JavaIOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/ExceptionHandlingSolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/FunctionalClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/FunctionalInterfaceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/JWorks$Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/JWorks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/LambdaSolutionTest1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/LambdaSolutionTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/lambda/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/com/wayyer/HelloWorld/math/Multiplies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mbox-export.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mbox-export.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/LeaderDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/LeaderDispatcher.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,47 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="LeaderDispatcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/LeaderDispatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LambdaStreamTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/lambda/LambdaStreamTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/sort/InsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/sort/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HanNuoTower.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/HanNuoTower.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="151">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="9" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,31 +46,119 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FibonaciSequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/FibonaciSequence.java">
+      <file leaf-file-name="IStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/IStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="Strategy1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/Strategy1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="135" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="247">
+              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+              <folding>
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinPath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/MinPath.java">
+      <file leaf-file-name="Strategy2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/Strategy2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+            <state relative-caret-position="247">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding>
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrategyContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/StrategyContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrategyClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/StrategyClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="53" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletDispatcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/ServletDispatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#355#364#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1276#1277#0" expanded="true" />
+                <element signature="e#1313#1314#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1405#1406#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="1780" column="39" selection-start-line="1780" selection-start-column="35" selection-end-line="1780" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FutureConnectionPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/FutureConnectionPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1757#1758#0" expanded="true" />
+                <element signature="e#1796#1797#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,9 +170,24 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>start()</find>
+      <find>putIfAbsent(</find>
+      <find>acquireSharedInterruptibly</find>
+      <find>futureTaskConnection</find>
+      <find>futureTaskpool</find>
+      <find>getMethod</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>connectionTask</replace>
+      <replace>connectionPool</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -171,6 +203,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/HanNuoTower.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/MinPath.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/algorithm/FibonaciSequence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/listener/MouseListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/listener/Observer1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/ITarget.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/EmployeeB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/EmployeeA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/Leader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/Boss.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/BuyCookingTools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/CommonCook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/FutureCook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/ConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/FutureConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/ServletDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/LeaderDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/IStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/Strategy1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/Strategy2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/StrategyContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/StrategyClient.java" />
       </list>
     </option>
   </component>
@@ -250,7 +303,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="classLoader" type="462c0819:PsiDirectoryNode" />
+              <item name="javapattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
@@ -259,7 +312,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="javaio" type="462c0819:PsiDirectoryNode" />
+              <item name="javapattern" type="462c0819:PsiDirectoryNode" />
+              <item name="dispatcher" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +322,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="jmx" type="462c0819:PsiDirectoryNode" />
+              <item name="javapattern" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
@@ -277,43 +332,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,10 +347,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="han&#9;FILE&#9;file:///Users/wcao12/HelloWorld/src/main/java/com/wayyer/HelloWorld/test/merge/conflict/HanNuoTower.java" />
+    <property name="SearchEverywhereHistoryKey" value="concurrentHash&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;han&#9;FILE&#9;file:///Users/wcao12/HelloWorld/src/main/java/com/wayyer/HelloWorld/test/merge/conflict/HanNuoTower.java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wayyer.HelloWorld.javapattern.strategy" />
+      <recent name="com.wayyer.HelloWorld.javapattern.dispatcher" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -340,14 +373,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="FibonaciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wayyer.HelloWorld.algorithm.FibonaciSequence" />
+  <component name="RunManager" selected="Application.StrategyClient">
+    <configuration name="Boss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wayyer.HelloWorld.javapattern.dispatcher.Boss" />
       <module name="HelloWorld" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wayyer.HelloWorld.algorithm.*" />
+          <option name="PATTERN" value="com.wayyer.HelloWorld.javapattern.dispatcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CommonCook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wayyer.HelloWorld.thread.CommonCook" />
+      <module name="HelloWorld" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wayyer.HelloWorld.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FutureCook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wayyer.HelloWorld.thread.FutureCook" />
+      <module name="HelloWorld" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wayyer.HelloWorld.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Observer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wayyer.HelloWorld.javapattern.listener.Observer1" />
+      <module name="HelloWorld" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wayyer.HelloWorld.javapattern.listener.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StrategyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wayyer.HelloWorld.javapattern.strategy.StrategyClient" />
+      <module name="HelloWorld" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wayyer.HelloWorld.javapattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -393,9 +470,20 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.Observer1" />
+      <item itemvalue="Application.Boss" />
+      <item itemvalue="Application.CommonCook" />
+      <item itemvalue="Application.FutureCook" />
+      <item itemvalue="Application.StrategyClient" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FibonaciSequence" />
+        <item itemvalue="Application.StrategyClient" />
+        <item itemvalue="Application.FutureCook" />
+        <item itemvalue="Application.CommonCook" />
+        <item itemvalue="Application.Boss" />
+        <item itemvalue="Application.Observer1" />
       </list>
     </recent_temporary>
   </component>
@@ -414,21 +502,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.25292397" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.3297568" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40497077" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40497077" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.4" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.2532189" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.50108933" side_tool="true" weight="0.23319027" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
@@ -442,220 +532,56 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.25292397" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/listener/Observer1.java</url>
+          <line>44</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/listener/Observer1.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/listener/Observer1.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/Boss.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/LeaderDispatcher.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/sourceforge/tess4j/TessAPITest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/sourceforge/tess4j/TessAPI1Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javaio/JavaIOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/classLoader/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="355" column="20" selection-start-line="355" selection-start-column="20" selection-end-line="355" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/classLoader/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/classLoader/MyClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/classLoader/InitiateOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="35" column="5" selection-start-line="8" selection-start-column="7" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/classLoader/ParentOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="29" column="58" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/classLoader/InitiateExtendOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="1964" selection-start-line="1964" selection-end-line="1964" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/math/Multiplies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.1.6.RELEASE/spring-kafka-2.1.6.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.10/0.8.2.0/kafka_2.10-0.8.2.0.jar!/kafka/producer/KeyedMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.10/0.8.2.0/kafka_2.10-0.8.2.0.jar!/kafka/javaapi/producer/Producer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="71" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.0.1/kafka-clients-1.0.1.jar!/org/apache/kafka/clients/producer/ProducerConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/kafka/KafkaProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.0.1/kafka-clients-1.0.1.jar!/org/apache/kafka/clients/consumer/ConsumerConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="36" column="76" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.0.1/kafka-clients-1.0.1.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="341" column="50" selection-start-line="341" selection-start-column="43" selection-end-line="341" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/time/Duration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="220" column="36" selection-start-line="220" selection-start-column="27" selection-end-line="220" selection-end-column="36" />
-          <folding>
-            <element signature="e#8441#8442#0" expanded="true" />
-            <element signature="e#8482#8483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/kafka/KafkaConsumerProducerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="150" column="47" selection-start-line="150" selection-start-column="47" selection-end-line="150" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="438" column="55" selection-start-line="438" selection-start-column="48" selection-end-line="438" selection-end-column="55" />
-          <folding>
-            <element signature="e#5748#5749#0" expanded="true" />
-            <element signature="e#5784#5785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro/1.8.2/avro-1.8.2.jar!/org/apache/avro/Schema.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="1017" column="22" selection-start-line="1017" selection-start-column="22" selection-end-line="1017" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro/1.8.2/avro-1.8.2.jar!/org/apache/avro/generic/GenericData.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="1156" column="15" selection-start-line="1156" selection-start-column="15" selection-end-line="1156" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.2.0/kafka-clients-2.2.0.jar!/org/apache/kafka/clients/producer/Producer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/kafka/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/kafka/ConsumerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="4802" column="27" selection-start-line="4802" selection-start-column="24" selection-end-line="4802" selection-end-column="27" />
+          <folding>
+            <element signature="e#186747#186748#0" expanded="true" />
+            <element signature="e#186792#186793#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -677,6 +603,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="73" column="32" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -687,16 +616,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1155#1178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/proxy/StaticProxyMainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -772,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/sort/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -815,8 +727,292 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        <state relative-caret-position="179">
+          <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/sort/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/proxy/StaticProxyMainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/EmployeeB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/EmployeeA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/ITarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/Boss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/listener/MouseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/listener/Observer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/BuyCookingTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="22" column="68" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="462" column="26" selection-start-line="462" selection-start-column="18" selection-end-line="462" selection-end-column="26" />
+          <folding>
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/CommonCook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/concurrent/RunnableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/concurrent/Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="481" column="20" lean-forward="true" selection-start-line="481" selection-start-column="20" selection-end-line="481" selection-end-column="20" />
+          <folding>
+            <element signature="e#5351#5352#0" expanded="true" />
+            <element signature="e#5386#5387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="62" column="44" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="267" column="28" selection-start-line="267" selection-start-column="15" selection-end-line="267" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/FutureCook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/ConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/thread/FutureConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1757#1758#0" expanded="true" />
+            <element signature="e#1796#1797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="1780" column="39" selection-start-line="1780" selection-start-column="35" selection-end-line="1780" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/ServletDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#355#364#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/LeaderDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/IStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/Strategy1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/Strategy2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/StrategyContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/strategy/StrategyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="53" />
         </state>
       </provider>
     </entry>
