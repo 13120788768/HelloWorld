@@ -37,7 +37,7 @@ public class FutureCook {
         };
 
         FutureTask<Tools> task = new FutureTask<>(callable);
-
+        //task.get();
         new Thread(task).start();
 
         System.out.println("step2 - wait 2000 millis");
