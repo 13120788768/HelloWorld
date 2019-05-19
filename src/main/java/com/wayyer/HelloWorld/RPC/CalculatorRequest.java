@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * @Author: wayyer
- * @Description: request seriliable bean
+ * @Description: the serializator of consumer and provider
  * @Program: HelloWorld
  * @Date: 2019.05.19
  */
