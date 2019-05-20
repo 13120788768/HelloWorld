@@ -1,5 +1,9 @@
 package com.wayyer.HelloWorld.javapattern.strategy;
 
+
+import java.util.Hashtable;
+import java.util.Objects;
+
 /**
  * @Author: wayyer
  * @Description: the context of strategy
@@ -10,6 +14,7 @@ public class StrategyContext {
     private IStrategy strategy;
 
     public StrategyContext(IStrategy strategy) {
+        //Objects.hash()
         this.strategy = strategy;
     }
 
