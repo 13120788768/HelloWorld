@@ -44,6 +44,9 @@ public class ThreadPoolTest {
 
         }
 
+        String s = "";
+        s.intern();
+
         for(Future future: list){
             System.out.println("list = "+future.get().toString());
         }
