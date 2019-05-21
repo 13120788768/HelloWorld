@@ -1,10 +1,10 @@
 package com.wayyer.HelloWorld;
 
-import org.checkerframework.checker.units.qual.K;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import javax.annotation.Resource;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -17,7 +17,43 @@ public class HelloWorld {
     static Value value = new Value(2);
 
 
+    @Autowired
     public static void main(String[] args){
+        ArrayList<String> listIni = new ArrayList<String>(){{add("test1"); add("test2");}};
+
+        System.out.println("listIni = " + listIni);
+        String ss = "222";
+        ss.intern();
+
+
+        System.out.println("-----------------------");
+
+        List listtest = new ArrayList<String>();
+        listtest.add("String");
+        listtest.add(2233);
+        listtest.add(22.33);
+        listtest.add(listtest);
+
+        System.out.println("listtest = " + listtest);
+        System.out.println("-----------------------");
+
+        List list = new ArrayList();
+        list.add(111);
+        list.add(new String("222"));
+
+        ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
+//        concurrentHashMap.put(null, 222);
+
+        Map<String, String> mapTestKeyNull = new HashMap<>();
+        mapTestKeyNull.put(null, "String1");
+        mapTestKeyNull.put(null, "String2");
+
+
+        System.out.println(mapTestKeyNull.get(null));
+
+        System.out.println("-----------------------");
+
+
 
         //重写了equals必须重写hash
 

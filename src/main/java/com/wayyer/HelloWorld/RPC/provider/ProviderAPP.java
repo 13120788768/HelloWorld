@@ -23,10 +23,10 @@ public class ProviderAPP {
     }
 
     private void run() throws Exception{
-        ServerSocket listener = new ServerSocket(8099);
+        ServerSocket serverSocket = new ServerSocket(8099);
 
         while(true){
-            Socket socket = listener.accept();
+            Socket socket = serverSocket.accept();
 
             // 将请求反序列化
             ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
