@@ -3,10 +3,7 @@ package com.wayyer.HelloWorld.thread;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+import java.util.concurrent.*;
 
 /**
  * @Author: wayyer
@@ -34,7 +31,7 @@ public class ThreadPoolTest {
         //固定大小的线程池
         executorService = Executors.newFixedThreadPool(poolSize);
 
-
+//        new ThreadPoolExecutor(10, 20, 0L, TimeUnit.SECONDS, new BlockingQueue(new Thread()));
         List<Future> list = new ArrayList<>();
         for (int i = 0; i < poolSize; i++) {
 
