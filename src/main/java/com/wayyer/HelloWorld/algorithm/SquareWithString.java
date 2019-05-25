@@ -10,7 +10,7 @@ package com.wayyer.HelloWorld.algorithm;
  * @Program: HelloWorld
  * @Date: 2019.05.24
  */
-public class SquareWIthString {
+public class SquareWithString {
 
     /**
      * （1）首先分析一共是4*K个字符，需要拼成的矩形字符是K+1行，且每行K+1个字符；
