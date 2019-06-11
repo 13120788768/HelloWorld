@@ -2,6 +2,8 @@ package com.wayyer.HelloWorld.algorithm.circle;
 
 import com.wayyer.HelloWorld.algorithm.triangle.Point;
 
+import java.util.HashSet;
+
 /**
  * @Author: wayyer
  * @Description: judge a point is in a circle
