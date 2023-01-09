@@ -1,3 +1,4 @@
+/*
 package com.wayyer.HelloWorld.javapattern.dispatcher;
 
 import javax.servlet.http.HttpServletRequest;
@@ -7,12 +8,14 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
+*/
 /**
  * @Author: wayyer
  * @Description: selvelt的任务分发者 ，主要完成url的映射和调用
  * @Program: HelloWorld
  * @Date: 2019.05.13
- */
+ *//*
+
 public class ServletDispatcher {
     //这里也可以用map 对象来保存Hanlder对象
     private List<Handler> handlerMapping = new ArrayList<Handler>();
@@ -102,3 +105,4 @@ public class ServletDispatcher {
         }
     }
 }
+*/

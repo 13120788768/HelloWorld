@@ -1,4 +1,4 @@
-package Dell.basic;
+package com.dell.emc.basic.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -14,7 +14,11 @@ import java.lang.annotation.Target;
 @Documented //表示是否生成Java doc，一般我们都会把它加上
 public @interface AnnotationExample { //@interface 语法声明
     String info() default "";
+
+
 }
+
+
 /**
  * 注解
  * 比较抽象的理解就是，用来标记程序的，这些标记在类加载，编译，运行时被读取，最后做出响应的处理。
