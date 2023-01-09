@@ -129,3 +129,12 @@ Icon
 .Trashes
 /src/test/resources/pd/*.pdb
 /target
+
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+

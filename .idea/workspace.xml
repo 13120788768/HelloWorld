@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e437b471-a21f-4756-8861-e5ecfdabe573" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/AnnotationExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lombok.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/SpringAPOExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dell/Annotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/Annotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dell/basic/AnnotationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/AnnotationExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/ServletDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wayyer/HelloWorld/javapattern/dispatcher/ServletDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/AnnotationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/AnnotationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/AnnotationExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/AnnotationExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,5 +1,7 @@
 package com.dell.emc.basic.annotation;
 
+import org.springframework.core.annotation.AliasFor;
+
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;
@@ -13,8 +15,15 @@ import java.lang.annotation.Target;
 @Inherited // 可继承
 @Documented //表示是否生成Java doc，一般我们都会把它加上
 public @interface AnnotationExample { //@interface 语法声明
+    //String info() default "";
+
+    // 显示传递 这里可以接收err的属性值
+    // 显示专递时需要加上  @AliasFor 去标记, 并且default要一致
+    @AliasFor(value="err")
     String info() default "";
 
+    @AliasFor(value="info")
+    String err() default "";
 
 }
 
