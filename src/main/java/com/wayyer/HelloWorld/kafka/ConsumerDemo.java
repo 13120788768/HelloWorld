@@ -1,3 +1,4 @@
+/*
 package com.wayyer.HelloWorld.kafka;
 
 import org.apache.avro.generic.GenericRecord;
@@ -7,12 +8,14 @@ import org.apache.kafka.clients.consumer.KafkaConsumer;
 
 import java.util.*;
 
+*/
 /**
  * @Author: wayyer
  * @Description: the consumer of kafka demo
  * @Program: HelloWorld
  * @Date: 2019.05.06
- */
+ *//*
+
 public class ConsumerDemo {
 
 //    private static ConsumerConnector consumer = null;
@@ -74,3 +77,4 @@ public class ConsumerDemo {
     }
 
 }
+*/
