@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e437b471-a21f-4756-8861-e5ecfdabe573" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/SpringAPOExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/collection/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/collection/set/TreeSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/AnnotationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/AnnotationExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/AnnotationExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/AnnotationExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/annotation/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dell/emc/basic/Info.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +28,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -216,7 +214,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="concurrentHash&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;han&#9;FILE&#9;file:///Users/wcao12/HelloWorld/src/main/java/com/wayyer/HelloWorld/test/merge/conflict/HanNuoTower.java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../autoconfigure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../global-search-adapter" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -232,35 +230,7 @@
       <recent name="com.wayyer.HelloWorld.javapattern.dispatcher" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainTest">
-    <configuration name="Boss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wayyer.HelloWorld.javapattern.dispatcher.Boss" />
-      <module name="HelloWorld" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wayyer.HelloWorld.javapattern.dispatcher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommonCook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wayyer.HelloWorld.thread.CommonCook" />
-      <module name="HelloWorld" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wayyer.HelloWorld.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TreeSetExample">
     <configuration name="FutureCook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wayyer.HelloWorld.thread.FutureCook" />
       <module name="HelloWorld" />
@@ -268,6 +238,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wayyer.HelloWorld.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dell.emc.basic.enumexample.MainTest" />
+      <module name="HelloWorld" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dell.emc.basic.enumexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,6 +287,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dell.emc.basic.collection.set.TreeSetExample" />
+      <module name="HelloWorld" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dell.emc.basic.collection.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -326,19 +324,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Boss" />
-      <item itemvalue="Application.CommonCook" />
       <item itemvalue="Application.FutureCook" />
       <item itemvalue="Application.StrategyClient" />
       <item itemvalue="Application.MainTest" />
+      <item itemvalue="Application.MainTest (1)" />
+      <item itemvalue="Application.TreeSetExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeSetExample" />
+        <item itemvalue="Application.MainTest (1)" />
         <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.StrategyClient" />
         <item itemvalue="Application.FutureCook" />
-        <item itemvalue="Application.CommonCook" />
-        <item itemvalue="Application.Boss" />
       </list>
     </recent_temporary>
   </component>
