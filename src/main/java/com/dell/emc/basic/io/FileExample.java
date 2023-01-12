@@ -1,7 +1,6 @@
 package com.dell.emc.basic.io;
 
 import java.io.File;
-import java.util.Date;
 
 /**
  * 「File」 即文件操作，
@@ -14,7 +13,7 @@ public class FileExample {
     public static void main(String[] args) throws Exception{
         // pure File
         // ./is the root project path
-        File file = new File("./target/filetest.txt");
+        File file = new File(IOConstant.FILE_PATH_TEST);
         // exists.
         if (file.exists()) {
             System.out.println("Already exist!");
