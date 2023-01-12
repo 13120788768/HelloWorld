@@ -1,6 +1,7 @@
 package com.dell.emc.basic.io;
 
 import java.io.File;
+import java.util.Date;
 
 /**
  * 「File」 即文件操作，
@@ -51,20 +52,78 @@ public class FileExample {
         }
         // isDirectory
         boolean isDir = dir.isDirectory();
-        System.out.println("Folder named ./target/io! is file? = " + isDir);
+        System.out.println("Folder named ./target/io is dir? = " + isDir);
 
         // multi dirs
         File dirs = new File("./target/io/l1/l2/l3");
         if (!dirs.exists()) {
             dirs.mkdirs();
-            System.out.println("Create muitl dirs ./target/l1/l2/l3.");
+            System.out.println("Create multi dirs ./target/l1/l2/l3.");
         } else {
             System.out.println("Folders ./target/l1/l2/l3 already exists!");
         }
+
+        // isDirectory
+        boolean isDirs = dirs.isDirectory();
+        System.out.println("Folder named ./target/l1/l2/l3 is dir? = " + isDirs);
+
+
+        // all file get methods
+        fileGetMethods(file);
+
+        // all file set methods
+        fileSetMethods(file);
+
+        System.out.println("\n--------------------After Set----------------------\n");
+        // all file get methods
+        fileGetMethods(file);
+
+
     }
 
+    public static void fileSetMethods(File txt1) throws Exception {
+        // reable
+        txt1.setReadable(false);
 
+        // writable
+        txt1.setWritable(true);
 
+        // can execute
+        txt1.setExecutable(false);
+
+        // last modify time
+        txt1.setLastModified(System.currentTimeMillis());
+
+        // read only
+        txt1.setReadOnly();
+    }
+
+    public static void fileGetMethods(File txt1) throws Exception {
+        // parent path
+        System.out.println("获取父路径 ---->" + new File(txt1.getAbsolutePath()).getParent());
+
+        // length
+        System.out.println("文件大小---->" + txt1.length() + "byte"); // 0 byte
+
+        //isHidden?
+        System.out.println("文件是否隐藏----->" + txt1.isHidden()); // false
+
+        // canRead?
+        System.out.println("文件是否可读----->" + txt1.canRead()); // true
+
+        // canWrite?
+        System.out.println("文件是否可写----->" + txt1.canWrite()); // true
+
+        // getPath
+        System.out.println("getPath---->" + txt1.getPath()); // .\target\filetest.txt
+
+        System.out.println("getAbsolutePath---->" + txt1.getAbsolutePath());
+
+        System.out.println("getCanonicalPath---->" + txt1.getCanonicalPath());
+        System.out.println("getAbsoluteFile---->" + txt1.getAbsoluteFile());
+        System.out.println("getCanonicalFile---->" + txt1.getCanonicalFile());
+
+    }
 
 
 }
