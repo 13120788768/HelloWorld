@@ -1,20 +1,0 @@
-
-"squid:ClassVariableVisibilityCheck"QMake field a static final constant or non-public and provide accessors if needed.(Èò¢Ë
-usquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(‚Ê×ûÿÿÿÿ
-msquid:S3008
-"WRename this field "STATIC_FIELD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø×ö
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(üÜŞä
-…"squid:ClassVariableVisibilityCheck
-"XMake STATIC_FIELD a static final constant or non-public and provide accessors if needed.(ø×ö
-Hsquid:S1444
-"2Make this "public static STATIC_FIELD" field final(ø×ö
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ãõ½½üÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(äîÓÕşÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(İæá‡ıÿÿÿÿ
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÒªÁÀ

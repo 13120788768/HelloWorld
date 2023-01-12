@@ -1,36 +1,0 @@
-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(©Ùğ²8ñì¡¤-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÈºË£ùÿÿÿÿ8ñì¡¤-
-|squid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ñì¡¤-
-†"squid:ClassVariableVisibilityCheck "QMake field a static final constant or non-public and provide accessors if needed.(Èò¢Ë8Š¼ñ¡¤-
-Osquid:S1444"2Make this "public static STATIC_FIELD" field final(ø×ö8Š¼ñ¡¤-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÿ¸ °8ñì¡¤-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ü˜¹¥8ñì¡¤-
-Wsquid:S1444
-"9Make this "public static PARENT_STATIC_FIELD" field final(Ø×‰8ñì¡¤-
-Œ"squid:ClassVariableVisibilityCheck"WMake parentField a static final constant or non-public and provide accessors if needed.(‘æ€»8ñì¡¤-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(İ¨¾é8ñì¡¤-
-Osquid:S1444"1Make this "public static parentField" field final(‘æ€»8ñì¡¤-
-[
-squid:S106."9Replace this use of System.out or System.err by a logger.(äîÓÕşÿÿÿÿ8Š¼ñ¡¤-
-|squid:S3008
-"^Rename this field "PARENT_STATIC_FIELD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø×‰8ñì¡¤-
-V
-squid:S106#"9Replace this use of System.out or System.err by a logger.(ÒªÁÀ8Š¼ñ¡¤-
-Œ"squid:ClassVariableVisibilityCheck"XMake STATIC_FIELD a static final constant or non-public and provide accessors if needed.(ø×ö8Š¼ñ¡¤-
-|squid:S1171-"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8Š¼ñ¡¤-
-”"squid:ClassVariableVisibilityCheck
-"_Make PARENT_STATIC_FIELD a static final constant or non-public and provide accessors if needed.(Ø×‰8ñì¡¤-
-tsquid:S3008"WRename this field "STATIC_FIELD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø×ö8Š¼ñ¡¤-
-[
-squid:S106/"9Replace this use of System.out or System.err by a logger.(‚Ê×ûÿÿÿÿ8Š¼ñ¡¤-
-[
-squid:S106("9Replace this use of System.out or System.err by a logger.(İæá‡ıÿÿÿÿ8Š¼ñ¡¤-
-V
-squid:S106)"9Replace this use of System.out or System.err by a logger.(üÜŞä8Š¼ñ¡¤-
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ãõ½½üÿÿÿÿ
