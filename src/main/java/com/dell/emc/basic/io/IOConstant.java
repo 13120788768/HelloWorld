@@ -1,5 +1,7 @@
 package com.dell.emc.basic.io;
 
+import java.nio.charset.StandardCharsets;
+
 public interface IOConstant {
 
     String FILE_PATH_TEST = "./target/filetest.txt";
@@ -16,5 +18,7 @@ public interface IOConstant {
     String URL_EXAMPLE_PROTOCOL = "http://www.baidu.com/";
     String WRITE_WITH_HTML_NEW = "./target/write_new.html";
     String WRITE_WITH_PIC = "./target/dog.jpg";
+
+    String CHAT_SET_UTF8 = StandardCharsets.UTF_8.toString();
 
 }

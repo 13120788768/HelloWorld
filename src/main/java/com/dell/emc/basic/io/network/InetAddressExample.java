@@ -7,7 +7,7 @@ import java.net.InetAddress;
 /**
  * InetAddress 用于表示网络上的硬件资源，即 IP 地址
  */
-public class IPExample {
+public class InetAddressExample {
 
 
     public static void main(String[] args) throws Exception {
